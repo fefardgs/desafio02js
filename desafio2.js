@@ -1,7 +1,7 @@
 //DESAFIO 2
 
 //1 
- const usuario = {
+ let usuario = {
   login: "admin",
   senha: "1234",
   tipo: "administrador"
@@ -11,7 +11,7 @@ console.log(`O login do ${usuario.tipo} é ${usuario.login} e a senha é ${usuar
 
 
 //2 
-const aluno = {
+let aluno = {
   nome: "Lucas",
   curso: "Desenvolvimento de Sistemas",
   turma: "2° DS"
@@ -47,7 +47,7 @@ const computador = {
 console.log(`O computador da marca ${computador.marca} possui processador ${computador.processador} e memória de ${computador.memoria}.`);
 
 //6
-const livro = {
+let livro = {
   titulo: "JavaScript Básico",
   autor: "Ana Silva",
   paginas: 200
@@ -83,7 +83,7 @@ const conta = {
 console.log(`O usuário ${conta.usuario} possui nível ${conta.nivel} e utiliza a senha ${conta.senha}, muito fraca por sinal.`);
 
 //10 
-const escola = {
+let escola = {
   nome: "EEEP",
   cidade: "Fortaleza",
   turno: "manhã"
