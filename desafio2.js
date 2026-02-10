@@ -1,0 +1,91 @@
+const usuario = {
+  login: "admin",
+  senha: "1234",
+  tipo: "administrador"
+};
+
+console.log(`O login do ${usuario.tipo} é ${usuario.login} e a senha é ${usuario.senha}, muito fraca por sinal.`);
+//2 
+const aluno = {
+  nome: "fernanda",
+  curso: "Desenvolvimento de Sistemas",
+  turma: "2° DS"
+};
+
+console.log(`O aluno ${aluno.nome} está matriculado no curso de ${aluno.curso}, na turma ${aluno.turma}.`);
+
+//3 
+const professor = {
+  nome: "Thiago",
+  disciplina: "JavaScript",
+  turno: "manhã"
+};
+
+console.log(`O professor ${professor.nome} ministra a disciplina de ${professor.disciplina} no turno da ${professor.turno}.`);
+
+//4 
+const empresa = {
+  nome: "revolutions tech",
+  area: "Tecnologia",
+  cidade: "curitiba"
+};
+
+console.log(`A empresa ${empresa.nome} atua na área de ${empresa.area} e fica em ${empresa.cidade}.`);
+
+//5 
+const computador = {
+  marca: "Dell",
+  processador: "Intel i5",
+  memoria: "8GB"
+};
+
+console.log(`O computador da marca ${computador.marca} possui processador ${computador.processador} e memória de ${computador.memoria}.`);
+
+//6
+const livro = {
+  titulo: "Conceito de PYTHON",
+  autor: "sara",
+  paginas: 100
+};
+
+console.log(`O livro ${livro.titulo} foi escrito por ${livro.autor} e possui ${livro.paginas} páginas.`);
+
+//7
+const filme = {
+  nome: "A entidade",
+  genero: "Terror",
+  ano: 2012
+};
+
+console.log(`O filme ${filme.nome} é do gênero ${filme.genero} e foi lançado em ${filme.ano}.`);
+
+//8
+const jogo = {
+  nome: "stable guys",
+  plataforma: "PS",
+  genero: " party royale "
+};
+
+console.log(`O jogo ${jogo.nome} roda na plataforma ${jogo.plataforma} e pertence ao gênero ${jogo.genero}.`);
+
+//9
+const conta = {
+  usuario: "Gustavo",
+  senha: "1234",
+  nivel: "administrador"
+};
+
+console.log(`O usuário ${conta.usuario} possui nível ${conta.nivel} e utiliza a senha ${conta.senha}, muito fraca por sinal.`);
+
+//10 
+const escola = {
+  nome: "SESI",
+  cidade: "Guarulhos",
+  turno: "manhã"
+};
+
+console.log(`A escola ${escola.nome} funciona na cidade de ${escola.cidade} no turno da ${escola.turno}.`);
+
+
+
+
