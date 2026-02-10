@@ -1,13 +1,18 @@
-const usuario = {
+//DESAFIO 2
+
+//1 
+ const usuario = {
   login: "admin",
   senha: "1234",
   tipo: "administrador"
 };
 
 console.log(`O login do ${usuario.tipo} é ${usuario.login} e a senha é ${usuario.senha}, muito fraca por sinal.`);
+
+
 //2 
 const aluno = {
-  nome: "fernanda",
+  nome: "Lucas",
   curso: "Desenvolvimento de Sistemas",
   turma: "2° DS"
 };
@@ -16,7 +21,7 @@ console.log(`O aluno ${aluno.nome} está matriculado no curso de ${aluno.curso},
 
 //3 
 const professor = {
-  nome: "Thiago",
+  nome: "Eduardo",
   disciplina: "JavaScript",
   turno: "manhã"
 };
@@ -25,9 +30,9 @@ console.log(`O professor ${professor.nome} ministra a disciplina de ${professor.
 
 //4 
 const empresa = {
-  nome: "revolutions tech",
+  nome: "Tech Solutions",
   area: "Tecnologia",
-  cidade: "curitiba"
+  cidade: "Fortaleza"
 };
 
 console.log(`A empresa ${empresa.nome} atua na área de ${empresa.area} e fica em ${empresa.cidade}.`);
@@ -43,34 +48,34 @@ console.log(`O computador da marca ${computador.marca} possui processador ${comp
 
 //6
 const livro = {
-  titulo: "Conceito de PYTHON",
-  autor: "sara",
-  paginas: 100
+  titulo: "JavaScript Básico",
+  autor: "Ana Silva",
+  paginas: 200
 };
 
 console.log(`O livro ${livro.titulo} foi escrito por ${livro.autor} e possui ${livro.paginas} páginas.`);
 
 //7
 const filme = {
-  nome: "A entidade",
-  genero: "Terror",
-  ano: 2012
+  nome: "Matrix",
+  genero: "Ficção",
+  ano: 1999
 };
 
 console.log(`O filme ${filme.nome} é do gênero ${filme.genero} e foi lançado em ${filme.ano}.`);
 
 //8
 const jogo = {
-  nome: "stable guys",
-  plataforma: "PS",
-  genero: " party royale "
+  nome: "Minecraft",
+  plataforma: "PC",
+  genero: "Sandbox"
 };
 
 console.log(`O jogo ${jogo.nome} roda na plataforma ${jogo.plataforma} e pertence ao gênero ${jogo.genero}.`);
 
 //9
 const conta = {
-  usuario: "Gustavo",
+  usuario: "eduardo",
   senha: "1234",
   nivel: "administrador"
 };
@@ -79,8 +84,8 @@ console.log(`O usuário ${conta.usuario} possui nível ${conta.nivel} e utiliza 
 
 //10 
 const escola = {
-  nome: "SESI",
-  cidade: "Guarulhos",
+  nome: "EEEP",
+  cidade: "Fortaleza",
   turno: "manhã"
 };
 
